@@ -2,7 +2,7 @@
 """This module contains the measure_runtime coroutine."""
 import asyncio
 from typing import List
-from .async_comprehension import async_comprehension
+from 1-async_comprehension import async_comprehension
 
 async def measure_runtime() -> float:
     """Measure the runtime of executing async_comprehension 4 times in parallel."""
